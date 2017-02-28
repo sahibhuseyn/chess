@@ -1,0 +1,105 @@
+
+.row{
+	width:100%;
+	height:auto;
+	/*display: block;*/
+}/*
+.col1{
+	width:8.3333%;
+}
+.col2{
+	width:16.6666%;
+}
+.col3{
+	width:24.9999%;
+}
+.col4{
+	width:33.3332%;
+}
+.col5{
+	width:41.6665%;
+}
+.col6{
+	width:49.9998%;
+}
+.col7{
+	width:58.3331%;
+}
+.col8{
+	width:66.6664%;
+}
+.col9{
+	width:74.9997%;
+}
+.col10{
+	width:83.333%;
+}
+.col11{
+	width:91.6663%;
+}
+.col12{
+	width:99.9996%;
+}
+
+[class*="col"] {
+   height:auto;
+   float:left;
+   box-sizing: border-box;
+   padding:5px;
+   border:1px solid lightgray;
+}
+.row div{
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+.col6{
+	height: 100px;
+	background: green;
+	margin:5px;
+}
+.col6 img{
+	width: 100%;
+}*/
+
+/*.wrapper .row .col1{
+	height: 100px;
+	width: calc(100% / 8);
+}
+.wrapper .row:nth-child(even) .col1:nth-child(even){
+	background: black;
+}
+.wrapper .row:nth-child(even) .col1:nth-child(odd){
+	background: #fff;
+}
+.wrapper .row:nth-child(odd) .col1:nth-child(odd){
+	background: black;
+}
+.wrapper .row:nth-child(odd) .col1:nth-child(even){
+	background: #fff;
+}*/
+
+.wrapper{
+	background: darkgrey;
+	width:890px;
+	margin:0 auto;
+	border:1px solid darkgray;
+}
+.white{
+	height: 100px;
+	width: 100px;
+	background: #fff;
+	float: left;
+}
+.black{
+	height: 100px;
+	width: 100px;
+	background: black;
+	float: left;
+}
+.black,.white{
+	 border:1px solid lightgray;
+}
+.row::after{
+	clear: both;
+}
